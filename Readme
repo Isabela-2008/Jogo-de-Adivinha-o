@@ -1,3 +1,41 @@
+## Enunciado do Projeto: Jogo de Adivinhação de Números
+
+### Objetivo
+
+Desenvolver um jogo simples de adivinhação de números utilizando a linguagem Python. O jogo deverá gerar um número aleatório entre 1 e 100, e o jogador deve adivinhar qual é o número correto. A cada tentativa, o programa deve fornecer uma dica indicando se o palpite foi muito baixo ou muito alto. O jogo continuará até que o jogador acerte o número.
+
+### Descrição
+
+1. **Geração do Número Aleatório**:
+   - O programa deve gerar um número aleatório entre 1 e 100, utilizando a função `random.randint`.
+
+2. **Entrada do Usuário**:
+   - O programa deve solicitar que o usuário insira um palpite (um número inteiro entre 1 e 100).
+
+3. **Lógica do Jogo**:
+   - Após cada palpite, o programa deve comparar o valor inserido pelo usuário com o número aleatório gerado.
+   - Se o palpite for menor que o número, o programa deve informar que o palpite é "muito baixo".
+   - Se o palpite for maior que o número, o programa deve informar que o palpite é "muito alto".
+   - Se o palpite for igual ao número, o programa deve exibir uma mensagem de vitória indicando o número de tentativas realizadas e encerrar o jogo.
+
+4. **Contagem de Tentativas**:
+   - O programa deve contar e exibir o número de tentativas realizadas pelo jogador.
+
+### Entregáveis
+
+- Script Python (`adivinhar_numero.py`) contendo o código do jogo.
+
+### Critérios de Avaliação
+
+- Corretude do código e funcionamento do jogo conforme descrito.
+- Clareza e organização do código.
+- Interatividade e experiência do usuário ao jogar.
+
+### Recursos Adicionais
+
+- Bibliotecas padrão do Python (não é necessário instalar dependências adicionais).
+- Documentação e exemplos de uso fornecidos no README.
+
 # Jogo de Adivinhação de Números
 
 Este é um simples jogo de adivinhação de números em Python. O programa gera um número aleatório entre 1 e 100, e o jogador deve adivinhar qual é o número. A cada tentativa, o programa fornece uma dica indicando se o palpite foi muito baixo ou muito alto. O jogo continua até que o jogador adivinhe o número corretamente.
