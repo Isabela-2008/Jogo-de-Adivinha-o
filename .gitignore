@@ -1,0 +1,16 @@
+
+### .gitignore
+
+```gitignore
+# Ignore arquivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore ambientes virtuais
+env/
+venv/
+
+# Ignore arquivos de configuração de IDE
+.idea/
+.vscode/
